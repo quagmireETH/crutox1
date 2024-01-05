@@ -7,7 +7,7 @@ function Services() {
         <p className="text-4xl font-[ethnocentric]">OUR SERVICES</p>
         <div className="w-72 border-b-2 my-5" />
         <p className="font-[ubuntu] text-lg text-[#949295] text-center">
-          Crutox isn't just another cryptocurrency app. <br /> Here's what sets
+          Crutox isn&apos;t just another cryptocurrency app. <br /> Here&apos;s what sets
           us apart!
         </p>
       </div>

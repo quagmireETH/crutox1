@@ -11,9 +11,11 @@ function Journey() {
         <p className="font-[ubuntu] text-lg text-[#949295] text-center">
           Joining Crutox means joining a community of forward-thinkers,
           investors, and individuals who are passionate about the
-          <br /> future of digital currency. Here's what you can expect
+          <br /> future of digital currency. Here&apos;s what you can expect
         </p>
       </div>
+
+      <div></div>
     </div>
   );
 }
