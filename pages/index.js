@@ -9,32 +9,31 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <div className="flex justify-evenly items-center h-full pb-[400px] relative">
-
+      <div className="flex justify-evenly items-center h-full pb-[275px] relative">
       <img
-        className="absolute w-full h-full mt-44 -z-50"
+        className="absolute w-full h-full -z-50"
         src="/background.jpg"
         alt=""
       />
-        <div className="flex flex-col">
-          <p className="text-4xl mb-7 font-[ethnocentric]">
+        <div className="flex flex-col mt-12">
+          <p className="text-5xl mb-7 font-[ethnocentric]">
             Crutox: Crypto <br /> Without Limitations
           </p>
-          <p className="w-[600px] font-[ubuntu] text-xl bg-black bg-opacity-70 p-2 rounded-lg">
+          <p className="w-[700px] font-[ubuntu] text-xl bg-black bg-opacity-70 p-2 rounded-lg">
             Crutox is your gateway to a simplified and accessible cryptocurrency
             experience. Mine digital assets effortlessly using your mobile
             device, join a thriving crypto community, and stay at the forefront
             of blockchain innovation. Start your journey with Crutox today and
             be part of the crypto revolution.
           </p>
-          <div className="flex justify-center items-center">
-            <div className="gradient-button rounded-xl py-2.5 px-32 mt-10 flex justify-center items-center">
+          <div className="flex justify-start items-center">
+            <div className="gradient-button rounded-xl py-2.5 px-32 mt-16 flex justify-center items-center">
               <p className="text-xl font-[ubuntu]">Download</p>
             </div>
           </div>
         </div>
         <div>
-          <img className="" src="/C.png" alt="" />
+          <img className="mt-12" src="/C.png" alt="" />
         </div>
       </div>
 
