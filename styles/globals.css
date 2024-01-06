@@ -14,9 +14,9 @@
 
 body {
   overflow-x: hidden;
-  background: linear-gradient(to top, #060119, #2b011d7e),
-    radial-gradient(circle, #61036f, #5c015d);
+  background: linear-gradient(to top, #060119 0%, #250026 60%, #52178D 100%);
 }
+
 
 p, li {
   color: white;
