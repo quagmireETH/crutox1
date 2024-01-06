@@ -14,7 +14,7 @@
 
 body {
   overflow-x: hidden;
-  background: linear-gradient(to bottom, #060119d4, #2b011d67),
+  background: linear-gradient(to top, #060119, #2b011d7e),
     radial-gradient(circle, #61036fb1, #5c015d);
 }
 
@@ -70,8 +70,8 @@ p, li {
 .star {
   position: absolute;
   background-color: #fff;
-  width: 3px;
-  height: 3px;
+  width: 4px;
+  height: 4px;
   border-radius: 50%;
   animation: shine 1.5s infinite alternate;
   z-index: -10;

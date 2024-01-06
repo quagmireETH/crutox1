@@ -3,7 +3,7 @@ import React from "react";
 function Services() {
   return (
     <div className="h-full pb-44">
-      {Array.from({ length: 500 }).map((_, idx) => (
+      {Array.from({ length: 1000 }).map((_, idx) => (
         <div
           key={idx}
           className="star absolute" // Make sure to have absolute positioning in your CSS for 'star'
