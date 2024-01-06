@@ -16,7 +16,7 @@ export default function Home() {
         alt=""
       />
         <div className="flex flex-col mt-12">
-          <p className="text-6xl mb-7 font-[ethnocentric]">
+          <p className="mb-7 font-[ethnocentric] text">
             Crypto <br /> Without Limitations
           </p>
           <p className="w-[900px] font-[ubuntu] text-2xl bg-black bg-opacity-70 p-2 rounded-lg">

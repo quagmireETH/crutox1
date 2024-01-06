@@ -88,3 +88,8 @@ p, li {
     opacity: 0.5;
   }
 }
+
+.text {
+  font-size: 52px;
+  line-height: 1;
+}
