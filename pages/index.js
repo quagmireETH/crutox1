@@ -9,10 +9,10 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <div className="flex justify-evenly items-center h-full pb-[275px] relative">
+      <div className="flex justify-evenly items-center h-full pb-[400px] relative">
 
       <img
-        className="absolute w-full h-full -z-50"
+        className="absolute w-full h-full mt-44 -z-50"
         src="/background.jpg"
         alt=""
       />
