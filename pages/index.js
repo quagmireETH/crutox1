@@ -7,14 +7,15 @@ import Footer from "./components/Footer";
 
 export default function Home() {
   return (
-    <div className="relative">
+    <div>
+      <Header />
+      <div className="flex justify-evenly items-center h-full pb-[275px] relative">
+
       <img
-        className="absolute w-full h-screen -z-50"
+        className="absolute w-full h-full -z-50"
         src="/background.jpg"
         alt=""
       />
-      <Header />
-      <div className="flex justify-evenly items-center mt-10 pb-44 h-full ">
         <div className="flex flex-col">
           <p className="text-4xl mb-7 font-[ethnocentric]">
             Crutox: Crypto <br /> Without Limitations

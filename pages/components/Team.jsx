@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function Team() {
   return (
-    <div className="h-full pb-44">
+    <div className="h-full pb-44 relative">    
       <div className="flex flex-col justify-center items-center">
         <p className="text-4xl font-[ethnocentric]">Meet our team!</p>
         <div className="w-72 border-b-2 my-5" />

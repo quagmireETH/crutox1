@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <div className="h-full pb-16">
+    <div className="h-full pb-16 relative">
       <div className="flex justify-center items-center">
         <div className="flex justify-around items-center gradient-box shadow-lg shadow-white w-5/6 py-10 rounded-xl">
           <div>

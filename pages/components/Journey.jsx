@@ -2,7 +2,7 @@ import React from "react";
 
 function Journey() {
   return (
-    <div className="pb-44">
+    <div className="pb-44 relative">
       <div className="flex flex-col justify-center items-center">
         <p className="text-4xl font-[ethnocentric]">
           Your Journey with <span className="font-bold">Crutox</span>!

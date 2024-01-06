@@ -16,7 +16,7 @@ function Roadmap() {
   );
 
   return (
-    <div className="h-full pb-44">
+    <div className="h-full pb-44 relative">
       <div className="flex flex-col justify-center items-center">
         <p className="text-4xl font-[ethnocentric]">
           Roadmap
