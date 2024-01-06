@@ -8,7 +8,7 @@ function Footer() {
         <div className="flex justify-around items-center gradient-box shadow-lg shadow-white w-5/6 py-10 rounded-xl">
           <div>
             <p className="text-xl">
-              Let's Get <br />
+              Let&apos;s Get <br />
               In Touch!
             </p>
           </div>

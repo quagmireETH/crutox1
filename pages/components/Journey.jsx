@@ -57,7 +57,7 @@ function Journey() {
               Innovative Features
             </p>
             <p className="font-[ubuntu] text-lg text-[#949295] text-start">
-              We're constantly improving and adding new features to make your
+              We&apos;re constantly improving and adding new features to make your
               crypto journey even more rewarding.
             </p>
           </div>
