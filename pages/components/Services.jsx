@@ -3,8 +3,7 @@ import React from "react";
 function Services() {
   return (
     <div className="h-full pb-44">
-
-{Array.from({ length: 1000 }).map((_, idx) => (
+      {Array.from({ length: 500 }).map((_, idx) => (
         <div
           key={idx}
           className="star absolute" // Make sure to have absolute positioning in your CSS for 'star'
@@ -21,8 +20,8 @@ function Services() {
         <p className="text-4xl font-[ethnocentric]">OUR SERVICES</p>
         <div className="w-72 border-b-2 my-5" />
         <p className="font-[ubuntu] text-lg text-[#949295] text-center">
-          Crutox isn&apos;t just another cryptocurrency app. <br /> Here&apos;s what sets
-          us apart!
+          Crutox isn&apos;t just another cryptocurrency app. <br /> Here&apos;s
+          what sets us apart!
         </p>
       </div>
 
@@ -34,10 +33,12 @@ function Services() {
                 <div className="bg-[#8ECBDF] p-1 rounded-full" />
               </div>
               <p className="font-[ubuntu] text-lg text-[#949295]">
-                <span className="text-white font-[ethnocentric] text-xl">Mobile Mining</span> <br /> Our app
-                lets you mine cryptocurrency effortlessly. No expensive
-                equipment or technical expertise required. Simply use your
-                mobile device and start earning.
+                <span className="text-white font-[ethnocentric] text-xl">
+                  Mobile Mining
+                </span>{" "}
+                <br /> Our app lets you mine cryptocurrency effortlessly. No
+                expensive equipment or technical expertise required. Simply use
+                your mobile device and start earning.
               </p>
             </div>
 
@@ -46,10 +47,12 @@ function Services() {
                 <div className="bg-[#8ECBDF] p-1 rounded-full" />
               </div>
               <p className="font-[ubuntu] text-lg text-[#949295]">
-                <span className="text-white font-[ethnocentric] text-xl">User-Focused</span> <br /> We put
-                our users at the forefront. Our intuitive app design, regular
-                updates, and responsive support team ensure you have the best
-                experience.
+                <span className="text-white font-[ethnocentric] text-xl">
+                  User-Focused
+                </span>{" "}
+                <br /> We put our users at the forefront. Our intuitive app
+                design, regular updates, and responsive support team ensure you
+                have the best experience.
               </p>
             </div>
           </div>
@@ -59,9 +62,11 @@ function Services() {
                 <div className="bg-[#8ECBDF] p-1 rounded-full" />
               </div>
               <p className="font-[ubuntu] text-lg text-[#949295]">
-                <span className="text-white font-[ethnocentric] text-xl">Innovation</span> <br /> Crutox is
-                at the forefront of blockchain technology, bringing you the
-                latest advancements in the crypto world.
+                <span className="text-white font-[ethnocentric] text-xl">
+                  Innovation
+                </span>{" "}
+                <br /> Crutox is at the forefront of blockchain technology,
+                bringing you the latest advancements in the crypto world.
               </p>
             </div>
 
@@ -70,9 +75,11 @@ function Services() {
                 <div className="bg-[#8ECBDF] p-1 rounded-full" />
               </div>
               <p className="font-[ubuntu] text-lg text-[#949295]">
-                <span className="text-white font-[ethnocentric] text-xl">Security</span> <br /> Your
-                security is our priority. We employ robust security measures to
-                keep your earnings safe.
+                <span className="text-white font-[ethnocentric] text-xl">
+                  Security
+                </span>{" "}
+                <br /> Your security is our priority. We employ robust security
+                measures to keep your earnings safe.
               </p>
             </div>
           </div>
