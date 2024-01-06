@@ -2,7 +2,7 @@ import React from "react";
 
 function Services() {
   return (
-    <div className="h-full pb-28">
+    <div className="h-full pb-44">
       <div className="flex flex-col justify-center items-center">
         <p className="text-4xl font-[ethnocentric]">OUR SERVICES</p>
         <div className="w-72 border-b-2 my-5" />

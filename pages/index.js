@@ -1,6 +1,9 @@
 import Header from "./components/Header";
 import Services from "./components/Services";
 import Journey from "./components/Journey";
+import Roadmap from "./components/Roadmap";
+import Team from "./components/Team";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -19,8 +22,8 @@ export default function Home() {
             be part of the crypto revolution.
           </p>
           <div className="flex justify-center items-center">
-            <div className="bg-[#821F86] rounded-xl py-2 px-32 mt-10 flex justify-center items-center">
-              <p className="text-xl font-[ubuntu] ">Download</p>
+            <div className="gradient-button rounded-xl py-2.5 px-32 mt-10 flex justify-center items-center">
+              <p className="text-xl font-[ubuntu]">Download</p>
             </div>
           </div>
         </div>
@@ -31,6 +34,9 @@ export default function Home() {
 
       <Services />
       <Journey />
+      <Roadmap />
+      <Team />
+      <Footer />
     </div>
   );
 }

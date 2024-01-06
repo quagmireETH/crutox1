@@ -14,10 +14,55 @@
 
 body {
   overflow-x: hidden;
-  background: linear-gradient(to bottom, #060119d4, #2b011d67), 
-              radial-gradient(circle, #61036fb1, #5c015d);
+  background: linear-gradient(to bottom, #060119d4, #2b011d67),
+    radial-gradient(circle, #61036fb1, #5c015d);
 }
 
-p {
+p, li {
   color: white;
+}
+
+.custom-left-arrow,
+.custom-right-arrow {
+  position: absolute;
+  z-index: 2;
+  transform: translateY(-50%);
+  background: white;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.custom-left-arrow {
+  left: 10px;
+}
+
+.custom-right-arrow {
+  right: 10px;
+}
+
+.gradient-button {
+  background-image: linear-gradient(to bottom, #7E1F84, #320156); /* Replace with the exact colors */
+  color: white; /* Adjust the text color as needed */
+
+  border: none; /* No border */
+  border-radius: 20px; /* Adjust the radius as needed */
+  cursor: pointer; /* Cursor changes to hand icon on hover */
+  font-size: 1em; /* Adjust font-size as needed */
+  font-weight: bold; /* Makes the text bold */
+  text-transform: uppercase; /* Optional: Uppercases the button text */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.gradient-box {
+  background-image: linear-gradient(to bottom, #7E1F84, #320156); /* Replace with the exact colors */
+  color: white; /* Adjust the text color as needed */
+
+  border: none; /* No border */
+  cursor: pointer; /* Cursor changes to hand icon on hover */
+  font-size: 1em; /* Adjust font-size as needed */
+  font-weight: bold; /* Makes the text bold */
+  text-transform: uppercase; /* Optional: Uppercases the button text */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
 }
