@@ -3,6 +3,20 @@ import React from "react";
 function Services() {
   return (
     <div className="h-full pb-44">
+
+{Array.from({ length: 1000 }).map((_, idx) => (
+        <div
+          key={idx}
+          className="star absolute" // Make sure to have absolute positioning in your CSS for 'star'
+          style={{
+            top: `${Math.random() * 100}%`, // Use percentage for full height coverage
+            left: `${Math.random() * 100}%`, // Use percentage for full width coverage
+            animationDuration: `${0.5 + Math.random() * 2}s`, // random shine duration
+            animationDelay: `${Math.random() * 1.5}s`, // random shine delay
+          }}
+        />
+      ))}
+
       <div className="flex flex-col justify-center items-center">
         <p className="text-4xl font-[ethnocentric]">OUR SERVICES</p>
         <div className="w-72 border-b-2 my-5" />
@@ -39,9 +53,9 @@ function Services() {
               </p>
             </div>
           </div>
-          <div className="flex justify-evenly items-center">
+          <div className="flex justify-evenly items-center mt-6">
             <div className="flex justify-start items-center mb-10 w-[35%]">
-              <div className="border-[3px] mb-[85px] border-[#263F5F] rounded-full p-2 mr-3">
+              <div className="border-[3px] mb-[55px] border-[#263F5F] rounded-full p-2 mr-3">
                 <div className="bg-[#8ECBDF] p-1 rounded-full" />
               </div>
               <p className="font-[ubuntu] text-lg text-[#949295]">
@@ -52,7 +66,7 @@ function Services() {
             </div>
 
             <div className="flex justify-start items-center mb-10 w-[35%]">
-              <div className="border-[3px] mb-16 border-[#263F5F] rounded-full p-2 mr-3">
+              <div className="border-[3px] mb-14 border-[#263F5F] rounded-full p-2 mr-3">
                 <div className="bg-[#8ECBDF] p-1 rounded-full" />
               </div>
               <p className="font-[ubuntu] text-lg text-[#949295]">

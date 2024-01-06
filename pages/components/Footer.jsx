@@ -25,11 +25,33 @@ function Footer() {
       </div>
 
       <div className="flex justify-center items-center mt-12">
-        <img className="w-10 mr-4" src="/discord.svg" alt="" />
-        <img className="w-10 mr-4" src="/Facebook.svg" alt="" />
-        <img className="w-10 mr-4" src="/Twitter_X.svg" alt="" />
-        <img className="w-10 mr-4" src="/instagram.svg" alt="" />
-        <img className="w-10" src="/youtube.svg" alt="" />
+        <Link href="https://discord.gg/usnMa6hjUK">
+          <img className="w-10 mr-4 cursor-pointer" src="/discord.svg" alt="" />
+        </Link>
+        <Link href="https://www.facebook.com/crutoxapp">
+          <img
+            className="w-10 mr-4 cursor-pointer"
+            src="/Facebook.svg"
+            alt=""
+          />
+        </Link>
+        <Link href="https://twitter.com/CrutoxApp">
+          <img
+            className="w-10 mr-4 cursor-pointer"
+            src="/Twitter_X.svg"
+            alt=""
+          />
+        </Link>
+        <Link href="https://instagram.com/crutox">
+          <img
+            className="w-10 mr-4 cursor-pointer"
+            src="/instagram.svg"
+            alt=""
+          />
+        </Link>
+        <Link href="https://www.youtube.com/@CrutoxApp">
+          <img className="w-10 cursor-pointer" src="/youtube.svg" alt="" />
+        </Link>
       </div>
       <div className="flex justify-center items-center">
         <div className="w-5/6 border-b-2 mb-12 mt-28" />
@@ -48,7 +70,7 @@ function Footer() {
             <p className="text-lg">Terms & Contitions</p>
           </Link>
           <Link href="https://crutox.com/privacy">
-          <p className="text-lg">Privacy Policy</p>
+            <p className="text-lg">Privacy Policy</p>
           </Link>
         </div>
       </div>
