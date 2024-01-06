@@ -64,7 +64,7 @@ function Roadmap() {
         customLeftArrow={<CustomLeftArrow />}
         customRightArrow={<CustomRightArrow />}
       >
-        <div className="p-4 w-96 shadow-lg shadow-purple-500 rounded-xl my-10">
+        <div className="p-4 w-96 shadow-[0_0_30px_0] bg-[#32143B] shadow-purple-400 rounded-xl my-10">
           <div className="border-b-2 w-full mb-2">
             <p className="font-[ethnocentric] text-lg">Q1 2024</p>
           </div>
@@ -103,7 +103,7 @@ function Roadmap() {
           </div>
         </div>
 
-        <div className="p-4 w-96 shadow-lg shadow-purple-500 rounded-xl my-10">
+        <div className="p-4 w-96 shadow-[0_0_30px_0] bg-[#32143B] shadow-purple-400 rounded-xl my-10">
           <div className="border-b-2 w-full mb-2">
             <p className="font-[ethnocentric] text-lg">Q2 2024</p>
           </div>
@@ -158,7 +158,7 @@ function Roadmap() {
           </div>
         </div>
 
-        <div className="p-4 w-96 shadow-lg shadow-purple-500 rounded-xl my-10">
+        <div className="p-4 w-96 shadow-[0_0_30px_0] bg-[#32143B] shadow-purple-400 rounded-xl my-10">
           <div className="border-b-2 w-full mb-2">
             <p className="font-[ethnocentric] text-lg">Q3 2024</p>
           </div>
@@ -211,7 +211,7 @@ function Roadmap() {
           </div>
         </div>
 
-        <div className="p-4 w-96 shadow-lg shadow-purple-500 rounded-xl my-10">
+        <div className="p-4 w-96 shadow-[0_0_30px_0] bg-[#32143B] shadow-purple-400 rounded-xl my-10">
           <div className="border-b-2 w-full mb-2">
             <p className="font-[ethnocentric] text-lg">Q4 2024</p>
           </div>

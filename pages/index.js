@@ -19,7 +19,7 @@ export default function Home() {
           <p className="text-4xl mb-7 font-[ethnocentric]">
             Crutox: Crypto <br /> Without Limitations
           </p>
-          <p className="text-[#949295] w-[600px] font-[ubuntu] text-xl">
+          <p className="w-[600px] font-[ubuntu] text-xl bg-black bg-opacity-70 p-2 rounded-lg">
             Crutox is your gateway to a simplified and accessible cryptocurrency
             experience. Mine digital assets effortlessly using your mobile
             device, join a thriving crypto community, and stay at the forefront
