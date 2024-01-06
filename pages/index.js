@@ -16,10 +16,10 @@ export default function Home() {
         alt=""
       />
         <div className="flex flex-col mt-12">
-          <p className="text-5xl mb-7 font-[ethnocentric]">
-            Crutox: Crypto <br /> Without Limitations
+          <p className="text-6xl mb-7 font-[ethnocentric]">
+            Crypto <br /> Without Limitations
           </p>
-          <p className="w-[700px] font-[ubuntu] text-xl bg-black bg-opacity-70 p-2 rounded-lg">
+          <p className="w-[900px] font-[ubuntu] text-2xl bg-black bg-opacity-70 p-2 rounded-lg">
             Crutox is your gateway to a simplified and accessible cryptocurrency
             experience. Mine digital assets effortlessly using your mobile
             device, join a thriving crypto community, and stay at the forefront
@@ -28,7 +28,7 @@ export default function Home() {
           </p>
           <div className="flex justify-start items-center">
             <div className="gradient-button rounded-xl py-2.5 px-32 mt-16 flex justify-center items-center">
-              <p className="text-xl font-[ubuntu]">Download</p>
+              <p className="text-2xl font-[ubuntu]">Download</p>
             </div>
           </div>
         </div>
