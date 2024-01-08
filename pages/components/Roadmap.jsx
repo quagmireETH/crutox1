@@ -1,6 +1,7 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { motion } from "framer-motion";
 
 function Roadmap() {
   const CustomLeftArrow = ({ onClick }) => (
@@ -16,21 +17,31 @@ function Roadmap() {
   );
 
   return (
-    <div className="h-full pb-44 relative">
-      <div className="flex flex-col justify-center items-center">
-        <p className="text-4xl font-[ethnocentric]">
-          Roadmap
-        </p>
+    <div className="h-full pb-44 relative" id="Roadmap">
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ delay: 0.3, duration: 0.4 }}
+        className="flex flex-col justify-center items-center"
+      >
+        <p className="text-4xl font-[ethnocentric]">Roadmap</p>
         <div className="w-72 border-b-2 my-5" />
-      </div>
+      </motion.div>
 
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ delay: 0.3, duration: 0.4 }}
+      >
       <Carousel
         additionalTransfrom={0}
         arrows
         autoPlaySpeed={3000}
         centerMode={false}
         className=""
-        containerClass="pl-16"
+        containerClass="pl-16 max-[390px]:pl-12"
         dotListClass=""
         draggable
         focusOnSelect={false}
@@ -41,20 +52,22 @@ function Roadmap() {
         renderButtonGroupOutside={false}
         renderDotsOutside={false}
         responsive={{
-          desktop: {
-            breakpoint: { max: 3000, min: 1024 },
-            items: 3,
+          superLargeDesktop: {
+            breakpoint: { max: 4000, min: 3000 },
+            items: 5,
             partialVisibilityGutter: 40,
           },
-          mobile: {
-            breakpoint: { max: 464, min: 0 },
-            items: 1,
-            partialVisibilityGutter: 30,
+          desktop: {
+            breakpoint: { max: 3000, min: 1325 },
+            items: 3,
           },
           tablet: {
-            breakpoint: { max: 1024, min: 464 },
+            breakpoint: { max: 1325, min: 885 },
             items: 2,
-            partialVisibilityGutter: 30,
+          },
+          mobile: {
+            breakpoint: { max: 885, min: 0 }, // Adjust these values as needed
+            items: 1,
           },
         }}
         showDots={false}
@@ -64,7 +77,7 @@ function Roadmap() {
         customLeftArrow={<CustomLeftArrow />}
         customRightArrow={<CustomRightArrow />}
       >
-        <div className="p-4 w-96 shadow-[0_0_30px_0] bg-[#32143B] shadow-purple-400 rounded-xl my-10">
+        <div className="p-4 w-96 shadow-[0_0_30px_0] bg-[#32143B] shadow-purple-400 rounded-xl my-10 max-[500px]:w-72">
           <div className="border-b-2 w-full mb-2">
             <p className="font-[ethnocentric] text-lg">Q1 2024</p>
           </div>
@@ -103,7 +116,7 @@ function Roadmap() {
           </div>
         </div>
 
-        <div className="p-4 w-96 shadow-[0_0_30px_0] bg-[#32143B] shadow-purple-400 rounded-xl my-10">
+        <div className="p-4 w-96 shadow-[0_0_30px_0] bg-[#32143B] shadow-purple-400 rounded-xl my-10 max-[500px]:w-72">
           <div className="border-b-2 w-full mb-2">
             <p className="font-[ethnocentric] text-lg">Q2 2024</p>
           </div>
@@ -158,7 +171,7 @@ function Roadmap() {
           </div>
         </div>
 
-        <div className="p-4 w-96 shadow-[0_0_30px_0] bg-[#32143B] shadow-purple-400 rounded-xl my-10">
+        <div className="p-4 w-96 shadow-[0_0_30px_0] bg-[#32143B] shadow-purple-400 rounded-xl my-10 max-[500px]:w-72">
           <div className="border-b-2 w-full mb-2">
             <p className="font-[ethnocentric] text-lg">Q3 2024</p>
           </div>
@@ -168,7 +181,7 @@ function Roadmap() {
           </p>
 
           <div className="flex justify-center items-center mt-4">
-            <div className="border-[3px] mb-14 border-[#263F5F] rounded-full p-2 mr-3">
+            <div className="border-[3px] mb-5 border-[#263F5F] rounded-full p-2 mr-3">
               <div className="bg-[#8ECBDF] p-1 rounded-full" />
             </div>
             <p>
@@ -178,7 +191,7 @@ function Roadmap() {
           </div>
 
           <div className="flex justify-center items-center mt-4">
-            <div className="border-[3px] mb-14 border-[#263F5F] rounded-full p-2 mr-3">
+            <div className="border-[3px] mb-[70px] border-[#263F5F] rounded-full p-2 mr-3">
               <div className="bg-[#8ECBDF] p-1 rounded-full" />
             </div>
             <p>
@@ -191,7 +204,7 @@ function Roadmap() {
           </p>
 
           <div className="flex justify-center items-center mt-4">
-            <div className="border-[3px] mb-8 border-[#263F5F] rounded-full p-2 mr-3">
+            <div className="border-[3px] mb-10 border-[#263F5F] rounded-full p-2 mr-3">
               <div className="bg-[#8ECBDF] p-1 rounded-full" />
             </div>
             <p>
@@ -211,7 +224,7 @@ function Roadmap() {
           </div>
         </div>
 
-        <div className="p-4 w-96 shadow-[0_0_30px_0] bg-[#32143B] shadow-purple-400 rounded-xl my-10">
+        <div className="p-4 w-96 shadow-[0_0_30px_0] bg-[#32143B] shadow-purple-400 rounded-xl my-10 max-[500px]:w-72">
           <div className="border-b-2 w-full mb-2">
             <p className="font-[ethnocentric] text-lg">Q4 2024</p>
           </div>
@@ -261,6 +274,7 @@ function Roadmap() {
           </div>
         </div>
       </Carousel>
+      </motion.div>
     </div>
   );
 }
