@@ -1,8 +1,10 @@
 import "../styles/globals.css";
+import CustomCursor from "./components/CustomCursor";
 
 function MyApp({ Component, pageProps }) {
   return (
     <div className="relative">
+      <CustomCursor />
       {Array.from({ length: 1000 }).map((_, idx) => (
         <div
           key={idx}
