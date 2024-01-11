@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Navbar from "./BurgerNav";
+import Navbar from "./BurgerNav_other";
 import Link from "next/link";
 
 function Header() {
