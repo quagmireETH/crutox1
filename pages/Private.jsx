@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Header from "./components/Header";
+import Header from "./components/Header_other";
 import Footer from "./components/Footer";
 
 function Terms() {
@@ -16,7 +16,7 @@ function Terms() {
           className="flex flex-col justify-center items-center"
         >
           <p className="text-4xl font-[ethnocentric] text-center">
-            Privacy Policy
+            Privacy policy
           </p>
           <div className="w-72 border-b-2 my-5" />
         </motion.div>
@@ -77,12 +77,13 @@ function Terms() {
           <p className="font-[ubuntu] ml-6">
             When you use our services, we collect information related to your
             usage, including mining activity, security circle additions, and
-            more. Device-specific information, such as your device&apos;s hardware
-            model, operating system version, advertising identifier, and unique
-            device identifiers. Location information, which may be collected
-            with your consent using methods like GPS, wireless networks, and
-            sensors. Log information about your usage of our website and
-            services, including pages viewed, access times, and IP addresses.
+            more. Device-specific information, such as your device&apos;s
+            hardware model, operating system version, advertising identifier,
+            and unique device identifiers. Location information, which may be
+            collected with your consent using methods like GPS, wireless
+            networks, and sensors. Log information about your usage of our
+            website and services, including pages viewed, access times, and IP
+            addresses.
           </p>
         </div>
         <div className="w-3/4 border-b-2 my-5" />

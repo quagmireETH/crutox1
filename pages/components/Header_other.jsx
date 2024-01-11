@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Navbar from "./BurgerNav";
-import ScrollButton from "./ScrollButton";
 import Link from "next/link";
 
 function Header() {
@@ -17,26 +16,26 @@ function Header() {
         </div>
       </Link>
       <div className="flex justify-between items-center w-[680px] max-[1015px]:hidden">
-        <ScrollButton targetId="Service">
+        <Link href="/">
           <p className="text-lg font-[ethnocentric] cursor-pointer underline">
             Service
           </p>
-        </ScrollButton>
-        <ScrollButton targetId="About">
+        </Link>
+        <Link href="/">
           <p className="text-lg font-[ethnocentric] cursor-pointer underline">
             About
           </p>
-        </ScrollButton>
-        <ScrollButton targetId="Roadmap">
+        </Link>
+        <Link href="/">
           <p className="text-lg font-[ethnocentric] cursor-pointer underline">
             Roadmap
           </p>
-        </ScrollButton>
-        <ScrollButton targetId="Team">
+        </Link>
+        <Link href="/">
           <p className="text-lg font-[ethnocentric] cursor-pointer underline">
             Team
           </p>
-        </ScrollButton>
+        </Link>
         <button
           onClick={toggleDropdown}
           className="text-lg text-white font-[ethnocentric] cursor-pointer underline"
@@ -44,7 +43,7 @@ function Header() {
           Others
         </button>
         {isOpen && (
-          <div className="absolute right-16 top-10 mt-2 py-2 w-44 bg-white rounded-lg shadow-xl flex flex-col justify-center items-center z-10">
+          <div className="absolute right-16 top-10 mt-2 py-2 w-44 bg-white rounded-lg shadow-xl flex flex-col justify-center items-center">
             <Link
               href="FAQ"
               className="block px-4 py-2 border-b-2 border-black w-[95%] text-center text-gray-800 hover:bg-gray-100"
@@ -61,7 +60,7 @@ function Header() {
               href="Private"
               className="block px-4 py-2 w-[95%] text-center text-gray-800 hover:bg-gray-100"
             >
-              Privacy Policy
+              Private Policy
             </Link>
           </div>
         )}

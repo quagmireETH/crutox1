@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Header from "./components/Header";
+import Header from "./components/Header_other";
 import Footer from "./components/Footer";
 
 function Terms() {

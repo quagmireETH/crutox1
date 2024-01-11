@@ -45,13 +45,6 @@ function Footer() {
         >
           <img className="w-10 mr-4 cursor-pointer" src="/discord.svg" alt="" />
         </Link>
-        <Link href="https://www.facebook.com/crutoxapp">
-          <img
-            className="w-10 mr-4 cursor-pointer"
-            src="/Facebook.svg"
-            alt=""
-          />
-        </Link>
         <Link
           href="https://twitter.com/CrutoxApp"
           rel="noreferrer"
