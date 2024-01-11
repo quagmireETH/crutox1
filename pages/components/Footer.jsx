@@ -14,7 +14,7 @@ function Footer() {
       >
         <div className="flex justify-around items-center gradient-box shadow-lg shadow-white w-5/6 py-10 rounded-xl max-[1025px]:flex-col max-[1025px]:pt-4">
           <div>
-            <p className="text-xl mb-5 font-[ethnocentric] max-[1025px]:text-2xl">
+            <p className="text-xl text-center mb-5 font-[ethnocentric] max-[1025px]:text-2xl">
               Let&apos;s Get <br className="max-[1025px]:hidden" />
               In Touch!
             </p>
@@ -25,7 +25,7 @@ function Footer() {
               id="myInput"
               name="myInput"
               placeholder="Enter your email here..."
-              className="py-2 px-1 rounded w-[600px] max-[780px]:w-[500px] max-[650px]:w-[400px] max-[530px]:w-[300px]"
+              className="py-2 px-1 rounded w-[600px] max-[780px]:w-[500px] max-[650px]:w-[400px] max-[530px]:w-[300px] max-[450px]:w-[200px]"
             />
           </div>
         </div>

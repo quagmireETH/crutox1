@@ -14,31 +14,46 @@ function MobileNav({ open, setOpen }) {
     <div
       className={`fixed top-0 bottom-0 right-0 h-screen w-[37%] z-30 bg-[#320156] border-l-[#b41dbf] border-b-[#b41dbf] border-l-2 border-b-2 element transform ${
         open ? "translate-x-0" : "translate-x-full"
-      } transition-transform duration-300 ease-in-out filter  `}
+      } transition-transform duration-300 ease-in-out filter`}
     >
-      <div className="flex flex-col justify-start items-start mt-10 p-5">
+      <div className="flex flex-col justify-start items-start mt-14 p-5">
         <a className="my-4 border-b-2 border-[#b41dbf] w-full">
           <ScrollButton targetId="Service">
-            <p className="text-2xl mb-4">Service</p>
+            <p className="text-lg mb-2 font-[ubuntu]">Service</p>
           </ScrollButton>
         </a>
         <a className="my-4 border-b-2 border-[#b41dbf] w-full">
           <ScrollButton targetId="About">
-            <p className="text-2xl mb-4">About</p>
+            <p className="text-lg mb-2 font-[ubuntu]">About</p>
           </ScrollButton>
         </a>
         <a className="my-4 border-b-2 border-[#b41dbf] w-full">
           <ScrollButton targetId="Roadmap">
-            <p className="text-2xl mb-4">Roadmap</p>
+            <p className="text-lg mb-2 font-[ubuntu]">Roadmap</p>
           </ScrollButton>
         </a>
         <a className="my-4 border-b-2 border-[#b41dbf] w-full">
           <ScrollButton targetId="Team">
-            <p className="text-2xl mb-4">Team</p>
+            <p className="text-lg mb-2 font-[ubuntu]">Team</p>
           </ScrollButton>
         </a>
+        <a className="my-4 border-b-2 border-[#b41dbf] w-full">
+          <Link href="FAQ">
+            <p className="text-lg mb-2 font-[ubuntu]">FAQs</p>
+          </Link>
+        </a>
+        <a className="my-4 border-b-2 border-[#b41dbf] w-full">
+          <Link href="Terms">
+            <p className="text-lg mb-2 font-[ubuntu]">Terms</p>
+          </Link>
+        </a>
+        <a className="my-4 border-b-2 border-[#b41dbf] w-full">
+          <Link href="Private">
+            <p className="text-lg mb-2 font-[ubuntu]">Private Policy</p>
+          </Link>
+        </a>
 
-        <Link
+{/**     <Link
           href="https://discord.gg/usnMa6hjUK"
           rel="noreferrer"
           target="_blank"
@@ -54,11 +69,7 @@ function MobileNav({ open, setOpen }) {
           rel="noreferrer"
           target="_blank"
         >
-          <img
-            src="/Facebook.svg"
-            className="w-8 mb-4 cursor-pointer"
-            alt=""
-          />
+          <img src="/Facebook.svg" className="w-8 mb-4 cursor-pointer" alt="" />
         </Link>
         <Link
           href="https://twitter.com/CrutoxApp"
@@ -88,7 +99,7 @@ function MobileNav({ open, setOpen }) {
           target="_blank"
         >
           <img src="/youtube.svg" className="w-8 my-2 cursor-pointer" alt="" />
-        </Link>
+        </Link> */}   
       </div>
     </div>
   ) : null;
