@@ -77,7 +77,7 @@ function Terms() {
           <p className="font-[ubuntu] ml-6">
             When you use our services, we collect information related to your
             usage, including mining activity, security circle additions, and
-            more. Device-specific information, such as your device's hardware
+            more. Device-specific information, such as your device&apos;s hardware
             model, operating system version, advertising identifier, and unique
             device identifiers. Location information, which may be collected
             with your consent using methods like GPS, wireless networks, and

@@ -24,8 +24,8 @@ function Terms() {
         <div className="mb-5 w-5/6">
           <p className="font-[ethnocentric] text-2xl">Terms & Conditions</p>
           <p className="font-[ubuntu] ml-6">
-            These Terms and Conditions of Use ("Terms") govern your access and
-            use of the Crutox mobile mining app ("App") and the associated
+            These Terms and Conditions of Use (&ldquo;Terms&ldquo;) govern your access and
+            use of the Crutox mobile mining app (&ldquo;App&ldquo;) and the associated
             services offered therein. By accessing or using the App, you agree
             to be bound by these Terms. If you do not agree to these Terms,
             please do not use the App.
@@ -111,7 +111,7 @@ function Terms() {
             Disclaimer of Warranties
           </p>
           <p className="font-[ubuntu] ml-6">
-            The App is provided "as is" and "as available" without any
+            The App is provided &ldquo;as is&ldquo; and &ldquo;as available&ldquo; without any
             warranties, either expressed or implied. Crutox makes no
             representations or warranties regarding the accuracy, availability,
             or reliability of the App.
