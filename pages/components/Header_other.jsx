@@ -60,7 +60,7 @@ function Header() {
               href="Private"
               className="block px-4 py-2 w-[95%] text-center text-gray-800 hover:bg-gray-100"
             >
-              Private Policy
+              Privacy Policy
             </Link>
           </div>
         )}
