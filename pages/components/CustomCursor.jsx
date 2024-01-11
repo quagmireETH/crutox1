@@ -33,6 +33,11 @@ const CustomCursor = () => {
           opacity: 0;
           transition: opacity 0.3s ease;
         }
+        @media (max-width: 768px) {
+          #custom-cursor {
+            display: none;
+          }
+        }
       `}</style>
     </>
   );
