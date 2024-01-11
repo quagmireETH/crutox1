@@ -264,7 +264,7 @@ function FAQ() {
           transition={{ delay: 0.3, duration: 0.4 }}
           className="flex flex-col justify-center items-center"
         >
-          <p className="text-4xl font-[ethnocentric]">Roadmap</p>
+          <p className="text-4xl font-[ethnocentric]">FAQs</p>
           <div className="w-72 border-b-2 my-5" />
           <p className="font-[ubuntu]">FREQUENTLY ASKED QUESTIONS</p>
         </motion.div>
