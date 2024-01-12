@@ -48,7 +48,7 @@ function MobileNav({ open, setOpen }) {
           </Link>
         </a>
         <a className="my-4 border-b-2 border-[#b41dbf] w-full">
-          <Link href="Private">
+          <Link href="Privacy">
             <p className="text-lg mb-2 font-[ubuntu]">Privacy Policy</p>
           </Link>
         </a>

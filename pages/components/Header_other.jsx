@@ -57,7 +57,7 @@ function Header() {
               Terms & Conditions
             </Link>
             <Link
-              href="Private"
+              href="Privacy"
               className="block px-4 py-2 w-[95%] text-center text-gray-800 hover:bg-gray-100"
             >
               Privacy Policy
