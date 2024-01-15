@@ -25,7 +25,7 @@ function Footer() {
               id="myInput"
               name="myInput"
               placeholder="Enter your email here..."
-              className="py-2 px-1 rounded w-[600px] max-[780px]:w-[500px] max-[650px]:w-[400px] max-[530px]:w-[300px] max-[450px]:w-[200px]"
+              className="py-2 px-1 font-[ethnocentric] rounded w-[600px] max-[780px]:w-[500px] max-[650px]:w-[400px] max-[530px]:w-[300px] max-[450px]:w-[200px]"
             />
           </div>
         </div>
@@ -101,7 +101,7 @@ function Footer() {
         </div>
         <div className="flex justify-center items-center max-[600px]:hidden">
           <img className="w-10" src="/logo41.png" alt="" />
-          <p className="ml-4 text-lg">Crutox</p>
+          <p className="ml-4 text-lg font-[ethnocentric]">Crutox</p>
         </div>
         <div className="flex justify-center items-center max-[860px]:flex-col max-[860px]:items-end">
           <Link
@@ -110,14 +110,14 @@ function Footer() {
             target="_blank"
             className="mr-6 max-[860px]:mr-0"
           >
-            <p className="text-lg">Terms & Contitions</p>
+            <p className="text-lg font-[ethnocentric]">Terms & Contitions</p>
           </Link>
           <Link
             href="https://crutox.com/privacy"
             rel="noreferrer"
             target="_blank"
           >
-            <p className="text-lg">Privacy Policy</p>
+            <p className="text-lg font-[ethnocentric]">Privacy Policy</p>
           </Link>
         </div>
       </motion.div>
