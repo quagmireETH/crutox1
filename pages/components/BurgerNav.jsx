@@ -38,22 +38,22 @@ function MobileNav({ open, setOpen }) {
           </ScrollButton>
         </a>
         <a className="my-4 border-b-2 border-[#b41dbf] w-full">
-          <Link href="FAQ">
+          <Link href="/Sub-page/FAQ">
             <p className="text-lg mb-2 font-[ubuntu]">FAQs</p>
           </Link>
         </a>
         <a className="my-4 border-b-2 border-[#b41dbf] w-full">
-          <Link href="Terms">
+          <Link href="/Sub-page/Terms">
             <p className="text-lg mb-2 font-[ubuntu]">Terms</p>
           </Link>
         </a>
         <a className="my-4 border-b-2 border-[#b41dbf] w-full">
-          <Link href="Privacy">
+          <Link href="/Sub-page/Privacy">
             <p className="text-lg mb-2 font-[ubuntu]">Privacy Policy</p>
           </Link>
         </a>
 
-{/**     <Link
+        {/**     <Link
           href="https://discord.gg/usnMa6hjUK"
           rel="noreferrer"
           target="_blank"
@@ -99,7 +99,7 @@ function MobileNav({ open, setOpen }) {
           target="_blank"
         >
           <img src="/youtube.svg" className="w-8 my-2 cursor-pointer" alt="" />
-        </Link> */}   
+        </Link> */}
       </div>
     </div>
   ) : null;

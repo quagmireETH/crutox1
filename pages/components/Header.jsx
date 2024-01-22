@@ -46,19 +46,19 @@ function Header() {
         {isOpen && (
           <div className="absolute right-16 top-10 mt-2 py-2 w-44 bg-white rounded-lg shadow-xl flex flex-col justify-center items-center z-10">
             <Link
-              href="FAQ"
+              href="/Sub-page/FAQ"
               className="block px-4 py-2 border-b-2 border-black w-[95%] text-center text-gray-800 hover:bg-gray-100"
             >
               FAQs
             </Link>
             <Link
-              href="Terms"
+              href="/Sub-page/Terms"
               className="block px-4 py-2 border-b-2 border-black w-[95%] text-center text-gray-800 hover:bg-gray-100"
             >
               Terms & Conditions
             </Link>
             <Link
-              href="Privacy"
+              href="/Sub-page/Privacy"
               className="block px-4 py-2 w-[95%] text-center text-gray-800 hover:bg-gray-100"
             >
               Privacy Policy
