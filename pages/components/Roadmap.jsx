@@ -201,7 +201,7 @@ function Roadmap() {
             </div>
 
             <p className="text-center font-[ubuntu] text-[#949295] mt-8">
-              Exchange Launch and Marketing
+              Mainnet Launch and Exchange Setup
             </p>
 
             <div className="flex justify-center items-center mt-4">
@@ -255,7 +255,7 @@ function Roadmap() {
               </p>
             </div>
             <p className="text-center font-[ubuntu] text-[#949295] mt-8">
-              Exchange Launch and Marketing
+              Post-Launch Activities and Community Building
             </p>
 
             <div className="flex justify-center items-center mt-4">
