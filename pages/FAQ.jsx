@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import Header from "../components/Header_other";
-import Footer from "../components/Footer";
+import Header from "./components/Header_other";
+import Footer from "./components/Footer";
 
 function FAQ() {
   const [isOpen, setIsOpen] = useState(false);

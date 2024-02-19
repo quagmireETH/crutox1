@@ -38,17 +38,17 @@ function MobileNav({ open, setOpen }) {
           </Link>
         </a>
         <a className="my-4 border-b-2 border-[#b41dbf] w-full">
-          <Link href="/Sub-page/FAQ">
+          <Link href="/FAQ">
             <p className="text-lg mb-2 font-[ubuntu]">FAQs</p>
           </Link>
         </a>
         <a className="my-4 border-b-2 border-[#b41dbf] w-full">
-          <Link href="/Sub-page/Terms">
+          <Link href="/Terms">
             <p className="text-lg mb-2 font-[ubuntu]">Terms</p>
           </Link>
         </a>
         <a className="my-4 border-b-2 border-[#b41dbf] w-full">
-          <Link href="/Sub-page/Privacy">
+          <Link href="/Privacy">
             <p className="text-lg mb-2 font-[ubuntu]">Privacy Policy</p>
           </Link>
         </a>
